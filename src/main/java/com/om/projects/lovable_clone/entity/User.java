@@ -11,10 +11,12 @@ import java.time.Instant;
 @Setter
 public class User {
    private Long id ;
+
    private String email ;
    private String passwordHash ;
    private String name ;
    private String avtarUrl ;
+
    private Instant createdAt ;
    private Instant updatedAt ;
    private Instant deletedAt ; //for soft delete
